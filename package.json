@@ -1,0 +1,35 @@
+{
+	"name": "txoy",
+	"version": "0.0.1",
+	"description": "Tunnel X over Y",
+	"main": "txoy-client.js",
+	"bin": {
+		"txoy": "./toxy-client.js"
+	},
+	"files": [
+		"txoy-client.js",
+		"plugin/tcp.js",
+		"plugin/wss.js"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BlueT/txoy.git"
+	},
+	"keywords": [
+		"tunnel", "tcp", "websocket", "http"
+	],
+	"author": "BlueT - Matthew Lien - 練喆明",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BlueT/txoy/issues"
+	},
+	"homepage": "https://github.com/BlueT/txoy#readme",
+	"dependencies": {
+		"minimist": "^1.2.0",
+		"multipipe": "^1.0.2",
+		"websocket-stream": "^3.3.3"
+	}
+}
